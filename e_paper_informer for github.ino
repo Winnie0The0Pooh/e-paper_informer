@@ -182,7 +182,7 @@ void setup()
   {
     Serial.println("batt low first time 1=======2");
     batt_low = true;
-    flash(2);
+//   flash(2);
   }
 
   if(upit > batt_high_porog and batt_low) //батарея заряжена после разрядки
